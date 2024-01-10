@@ -17,7 +17,7 @@
     .container{
         flex-direction: column-reverse;
         padding: 5%;
-        margin-bottom: 15%;
+        margin-bottom: 10%;
     }
     .container_apresentacao{
         width: auto;
@@ -43,6 +43,10 @@
     }
     #titulo_curriculo{
         text-align: center;
+    }
+    .docs{
+        text-decoration: none;
+        color: #22D4FD;
     }
     .container_skills{
         font-size: 1.2rem;
