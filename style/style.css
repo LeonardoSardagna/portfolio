@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+:root{
+    --cor-primaria:#000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-tercearia: #22D4FD;
+    --cor-hover: #22D4FD;
+    --cor-destaque: #F2CB29;
+    --cor-gradiente-card: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    --cor-titulo-card: #000000;
+    --cor-paragrafor-card: #000000;
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    box-sizing: border-box;
+}
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho_link{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho_link_menu{
+    text-decoration: none;
+    color: var(--cor-tercearia);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: transform 0.1s ease-in;
+}
+.cabecalho_link_menu:hover{
+    transform: scale(1.1);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 15%;
+    gap: 80px;
+}
+.container_apresentacao{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+.container_titulo{
+    font-family: var(--fonte-primaria);
+    font-size: 2.25rem;
+}
+.destaque_titulo_apresentacao{
+    color: var(--cor-tercearia);
+}
+.container_paragrafo{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+}
+.container_destaque_habilidades{
+    color: var(--cor-destaque)
+}
+.container_titulo_skills{
+    color: var(--cor-secundaria);
+    text-align: center; 
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.container_icones{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.container_skills_icone{
+    width: 25%;
+    transition: transform 0.1s ease-in;
+}
+.container_skills_icone:hover{
+    transform: scale(1.1);
+}
+.container_link{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.container_icone_link{
+    display: flex;
+    gap: 7%;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-hover); 
+    text-align: center;
+    justify-content: center;
+    padding: 3% 0;
+    width: 70%;
+    border-radius: 1rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: bold;
+}
+.container_icone_link:hover{
+    background-color: #272727;
+    transition: 0.5s ease-in;
+}
+.container_link_subtitulo{
+    text-align: center; 
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.container_imagem{
+    width: 50%;
+    border-radius: 20px;
+}
+.rodape{
+    background-color: var(--cor-tercearia);
+    color: var(--cor-primaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 20px;
+}
+.curriculo_habilidades{
+    font-family: var(--fonte-primaria);
+    font-size: 2.25rem;
+}
+.container_card_hard{
+    display: flex;
+    flex-direction: column;
+    background: var(--cor-gradiente-card);
+    width: 70%;
+    gap: 10px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 25px;
+}
+.container_card_soft{
+    display: flex;
+    flex-direction: column;
+    background: var(--cor-gradiente-card);
+    width: 70%;
+    gap: 10px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 25px;
+}
+#subtitulo_curriculo{
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--cor-titulo-card);
+}
+.icones_curriculo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.container_hard_skills{
+    width: 15%;
+    align-items: center;
+    transition: transform 0.1s ease-in;
+}
+.container_hard_skills:hover{
+    transform: scale(1.1);
+}
+.titulos_outras_habilidades{
+    font-family: var(--fonte-primaria);
+    font-size: 1.3rem;
+    color: var(--cor-titulo-card);
+    font-weight: bold;
+}
+#lista_curriculo{
+    font-family: var(--fonte-primaria);
+    font-size: 1.1rem;
+    color: var(--cor-paragrafor-card);
+    line-height: 1.5;
+}
+.container_soft_skills{
+    width: 20%;
+    transition: transform 0.1s ease-in;
+}
+.container_soft_skills:hover{
+    transform: scale(1.1);
+}
+.docs{
+    text-decoration: none;
+    color: #F6F6F6;
+}
