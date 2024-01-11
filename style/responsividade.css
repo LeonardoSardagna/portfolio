@@ -96,6 +96,10 @@
     .curriculo_habilidades{
         text-align: center;
     }
+    .docs{
+        text-decoration: none;
+        color: #22D4FD;
+    }
     .container_skills{
         font-size: 1.8rem;
     }
