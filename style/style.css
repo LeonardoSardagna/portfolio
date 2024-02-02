@@ -193,5 +193,5 @@ body{
 }
 .docs{
     text-decoration: none;
-    color: #F6F6F6;
+    color: var(--cor-hover);
 }
