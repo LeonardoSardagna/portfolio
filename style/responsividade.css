@@ -12,7 +12,7 @@
         text-align: center;
     }
     .container_imagem{
-        width: auto;
+        width: 20%;
     }
     .container{
         flex-direction: column-reverse;
@@ -27,6 +27,7 @@
     }
     .container_paragrafo{
         font-size: 1rem;
+        width: 100%;
     }
     .container_link_subtitulo{
         font-size: 1rem;
@@ -63,7 +64,7 @@
     }
 }
 
-@media(max-width:800px){
+@media(max-width:1000px){
     .cabecalho{
         padding: 5%;
     }
@@ -89,6 +90,7 @@
     }
     .container_paragrafo{
         font-size: 1.4rem;
+        width: 100%;
     }
     .container_skills_icone{
         width: 15%;
